@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/b_temp"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/viewshape"
+        android:text="Temperature"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_time"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/viewshape"
+        android:text="time zone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_curr" />
+
+    <Button
+        android:id="@+id/b_vol"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/viewshape"
+        android:text="volume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_speed" />
+
+    <Button
+        android:id="@+id/b_curr"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/viewshape"
+        android:text="currency"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_len" />
+
+    <Button
+        android:id="@+id/b_speed"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/viewshape"
+        android:text="speed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_weight" />
+
+    <Button
+        android:id="@+id/b_weight"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/viewshape"
+        android:text="Weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_len"
+        android:layout_width="138dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/viewshape"
+        android:text="Length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_temp" />
+</android.support.constraint.ConstraintLayout>

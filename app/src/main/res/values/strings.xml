@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>kelvin</item>
+
+    </string-array>
+    <string-array name="weight">
+        <item>kg</item>
+        <item>ton</item>
+        <item>pound</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="length">
+        <item>cm</item>
+        <item>km</item>
+        <item>mel</item>
+        <item>m</item>
+    </string-array>
+    <string-array name="currency">
+        <item>egy pound</item>
+        <item>usd</item>
+        <item>Euro</item>
+        <item>Saudi riyal</item>
+    </string-array>
+    <string-array name="volume">
+        <item>mm3</item>
+        <item>m3</item>
+        <item>km3</item>
+        <item>cm3</item>
+    </string-array>
+    <string-array name="speed">
+        <item>mps</item>
+        <item>kmph</item>
+        <item>fps</item>
+        <item>mph</item>
+    </string-array>
+    <string-array name="timezone">
+        <item>cairo</item>
+        <item>riyadh</item>
+        <item>tokyo</item>
+        <item>mexico</item>
+    </string-array>
+</resources>
